@@ -1,0 +1,24 @@
+{
+  "name": "qa-upskilling-45",
+  "version": "1.0.0",
+  "description": "My Test Practice \r # QA Upskilling — 45 Days",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamalsivakumar1994-ui/qa-upskilling-45.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamalsivakumar1994-ui/qa-upskilling-45/issues"
+  },
+  "homepage": "https://github.com/kamalsivakumar1994-ui/qa-upskilling-45#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
