@@ -1,0 +1,3 @@
+My name is Kamal
+I am a manual tester learning Playwright and TypeScript
+Goal: complete 45 days and get an automation job
