@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "My Test Practice \r # QA Upskilling — 45 Days",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamalsivakumar1994-ui/qa-upskilling-45.git"
@@ -18,6 +16,8 @@
   },
   "homepage": "https://github.com/kamalsivakumar1994-ui/qa-upskilling-45#readme",
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
