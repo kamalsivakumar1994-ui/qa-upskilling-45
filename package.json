@@ -1,6 +1,7 @@
 {
   "name": "qa-upskilling-45",
   "version": "1.0.0",
+  "type": "module",
   "description": "My Test Practice \r # QA Upskilling — 45 Days",
   "main": "index.js",
   "scripts": {},
