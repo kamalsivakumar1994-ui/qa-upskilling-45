@@ -1,0 +1,26 @@
+{
+    "validUsers": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "description": "valid admin user"
+        }
+    ],
+    "invalidUsers": [
+        {
+            "username": "adm",
+            "password": "jak",
+            "description": "wrong username and password"
+        },
+        {
+            "username": "admin",
+            "password": "wrongpass",
+            "description": "correct username wrong password"
+        },
+        {
+            "username": "",
+            "password": "",
+            "description": "empty credentials"
+        }
+    ]
+}
