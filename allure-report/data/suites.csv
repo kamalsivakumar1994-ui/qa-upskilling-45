@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12274","Valid login - should show dashboard","chromium","2026-07-14","passed","2026-07-14","Reporting Demo Tests > Login scenarios","reporting.spec.ts","",""
+"","12397","Intentional failure - for report demo","chromium","2026-07-14","failed","2026-07-14","Reporting Demo Tests > Page element checks","reporting.spec.ts","",""
+"","10833","Invalid login - should show error","chromium","2026-07-14","passed","2026-07-14","Reporting Demo Tests > Login scenarios","reporting.spec.ts","",""
+"","10139","Login page has all elements","chromium","2026-07-14","passed","2026-07-14","Reporting Demo Tests > Page element checks","reporting.spec.ts","",""
+"","11222","Empty login - should show error","chromium","2026-07-14","passed","2026-07-14","Reporting Demo Tests > Login scenarios","reporting.spec.ts","",""
