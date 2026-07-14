@@ -1,0 +1,3 @@
+Username field visible!
+Password field visible!
+Submit button visible!

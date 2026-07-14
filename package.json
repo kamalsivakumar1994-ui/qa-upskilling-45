@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/kamalsivakumar1994-ui/qa-upskilling-45#readme",
   "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
