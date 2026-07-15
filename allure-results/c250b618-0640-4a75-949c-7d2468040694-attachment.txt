@@ -1,0 +1,7 @@
+=== Test 3: Intercept Requests ===
+Total requests made: 7
+First 3 requests:
+  1. https://www.saucedemo.com/
+  2. https://www.saucedemo.com/manifest.json
+  3. https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+Request interception test passed!

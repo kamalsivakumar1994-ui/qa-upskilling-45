@@ -1,0 +1,7 @@
+Test: All assertions
+URL assertion passed!
+Title assertion passed!
+Visible assertion passed!
+Enabled assertion passed!
+NOT assertion passed!
+All assertions passed!

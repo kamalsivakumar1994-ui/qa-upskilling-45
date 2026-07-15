@@ -1,0 +1,8 @@
+=== Test 1: Open new tab ===
+Current URL https://the-internet.herokuapp.com/windows
+Total tabs before click: 1
+New Tab URL: https://the-internet.herokuapp.com/windows/new
+Total tabs after the click: 2
+The New Page Title is: New Window
+current Url: https://the-internet.herokuapp.com/windows
+The Total tabs after closing: 1

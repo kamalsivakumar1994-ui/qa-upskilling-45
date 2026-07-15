@@ -1,0 +1,6 @@
+Step 1: Going to saucedemo.com
+Step 2: Filling username
+Step 3: Filling password
+Step 4: Clicking login button
+Step 5: Checking we are on inventory page
+Test passed!

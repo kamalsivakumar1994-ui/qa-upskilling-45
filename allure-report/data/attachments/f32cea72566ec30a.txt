@@ -1,0 +1,2 @@
+Test: Soft assertions
+Soft assertions done!

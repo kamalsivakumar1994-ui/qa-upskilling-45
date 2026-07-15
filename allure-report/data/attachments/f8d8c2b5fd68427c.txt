@@ -1,0 +1,9 @@
+=== Test 5: Keyboard actions-Counter check ===
+Clicking textbox to focus it...
+Pressing the Arrow up 3 times
+Last key used Last key: ArrowUp
+Last Arrow count Arrow counter: 3
+Now pressing Arrow Down 1 time...
+Last key used: Last key: ArrowDown
+Arrow counter after down: Arrow counter: 2
+Arrow counter test passed!

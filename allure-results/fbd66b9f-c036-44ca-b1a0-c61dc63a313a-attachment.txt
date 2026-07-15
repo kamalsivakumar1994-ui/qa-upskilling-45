@@ -1,0 +1,4 @@
+=== Test 2: Confirm Alert ===
+Alert type: confirm
+Alert message: Do you confirm this action?
+Confirm result: OK!

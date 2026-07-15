@@ -1,0 +1,14 @@
+Step 1: Login
+Step 2: Wait for URL to change
+URL changed to inventory page!
+Step 3: Wait for products to be visible
+Products list is visible!
+Step 4: Wait for specific product to appear
+Sauce Labs Backpack is visible!
+Step 5: Wait for Add to cart button to be enabled
+Add to cart button is enabled!
+Step 6: Click Add to cart
+Step 7: Wait for cart count to appear
+Cart badge appeared!
+Step 8: Check cart count is 1
+Cart count is 1!

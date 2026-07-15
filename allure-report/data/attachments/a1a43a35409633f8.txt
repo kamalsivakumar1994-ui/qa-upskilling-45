@@ -1,0 +1,8 @@
+=== Test 2: Network Mocking ===
+Setting up route mock...
+Page loaded with images blocked!
+Blocking image: https://www.saucedemo.com/icon-192x192.png
+Taking screenshot with blocked images...
+Screenshot saved - images should be missing!
+Page still works with images blocked!
+Network mock test passed!

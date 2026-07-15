@@ -1,0 +1,5 @@
+beforeEach: Logging in...
+beforeEach: Logged in!
+Test: Products page
+Products found: 6
+Products page test passed!

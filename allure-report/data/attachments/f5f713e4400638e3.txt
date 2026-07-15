@@ -1,0 +1,2 @@
+Fixture navigated to login page automatically!
+Login page ready test passed!

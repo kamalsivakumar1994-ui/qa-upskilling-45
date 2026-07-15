@@ -1,0 +1,12 @@
+====Test 2: Switch between tabs====
+Current tab Url: https://www.sreenidhirajakrishnan.com/practice
+Total tabs before switching: 1
+Tab 1 url: https://www.sreenidhirajakrishnan.com/practice
+Tab 2 url: about:blank
+Working on Tab 2...
+Tab 2 verified!
+Switching back to Tab 1...
+Tab 1 message: New window/tab opened
+Tab 1 content verified!
+Tab 2 closed!
+Test passed!

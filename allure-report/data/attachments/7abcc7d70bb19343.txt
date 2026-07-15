@@ -1,0 +1,4 @@
+=== Test 2b: Confirm Alert - Cancel ===
+Alert type: confirm
+Alert message: Do you confirm this action?
+Confirm Cancel handled!

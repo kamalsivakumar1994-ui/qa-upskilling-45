@@ -1,0 +1,4 @@
+=== Test 3: Prompt Alert ===
+Alert Type prompt
+Alert Message Enter a value:
+Text Added

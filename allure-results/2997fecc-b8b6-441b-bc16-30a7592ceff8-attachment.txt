@@ -1,0 +1,4 @@
+=== Test 3: Right Click ===
+Right clicking on box...
+Left or right click: Right click captured (context menu blocked)
+Right click test passed!

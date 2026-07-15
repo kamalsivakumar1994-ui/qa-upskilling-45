@@ -1,0 +1,4 @@
+Login with wrong password
+Wait for error to appear
+Check error message text
+Error message appeared correctly!

@@ -1,0 +1,3 @@
+Fixture logged us in automatically!
+Success message: Dashboard — login successful
+Valid login test passed!

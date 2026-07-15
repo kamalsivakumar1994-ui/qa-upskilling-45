@@ -1,0 +1,4 @@
+beforeEach: Going to saucedemo...
+Test: Empty username
+Empty username test passed!
+afterEach: Test finished!

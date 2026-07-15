@@ -1,0 +1,5 @@
+beforeEach: Logging in...
+beforeEach: Logged in!
+Test: Sort products
+First product after Z-A sort: Test.allTheThings() T-Shirt (Red)
+Sort test passed!

@@ -1,0 +1,4 @@
+beforeEach: Going to saucedemo...
+Test: Invalid password
+Invalid password test passed!
+afterEach: Test finished!

@@ -1,0 +1,4 @@
+=== Test 1: Simple Alert ===
+Alert type: alert
+Alert message: This is a practice alert
+Alert handled!

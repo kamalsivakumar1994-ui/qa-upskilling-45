@@ -1,0 +1,4 @@
+=== Test 4: Screenshot handling ===
+Element not found - taking failure screenshot...
+Failure screenshot saved!
+Test completed!

@@ -1,0 +1,4 @@
+beforeEach: Going to saucedemo...
+Test: Locked user
+Locked user test passed!
+afterEach: Test finished!

@@ -1,0 +1,4 @@
+beforeEach: Logging in...
+beforeEach: Logged in!
+Test: Add to cart
+Add to cart test passed!
