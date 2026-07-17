@@ -61,3 +61,92 @@ test.describe('Users API',()=>{
     expect(response.status()).toBe(404);
   });
 
+  test.describe('auth tests',()=>{
+      test('POST Login with valid credentials return a token', async({request})=>{
+        const response= await request.post(`${BASE_URL}/login`,{
+          headers:{'x-api-key': API_KEY},
+          data:{
+            email: 'Test@gmail.com',
+            password: 'Test@123456'
+
+          }
+        });
+
+      expect(response.status()).toBe(200);
+
+    const body = await response.json();
+    expect(body).toHaveProperty('token');
+    expect(typeof body.token).toBe('string');
+  });
+  
+test('POST login with missing password returns 400', async ({ request }) => {
+    const response = await request.post(`${BASE_URL}/login`, {
+      headers: { 'x-api-key': API_KEY },
+      data: {
+        email: 'eve.holt@reqres.in'
+        // password deliberately missing
+      }
+    });
+
+    expect(response.status()).toBe(400);
+
+    const body = await response.json();
+    expect(body).toHaveProperty('error');
+  });
+
+});
+
+test.describe('Negative tests - missing auth', () => {
+
+  test('GET users without API key returns 401', async ({ request }) => {
+    const response = await request.get(`${BASE_URL}/users/2`);
+    // note: no headers sent at all here
+
+    expect(response.status()).toBe(401);
+
+    const body = await response.json();
+    expect(body).toHaveProperty('error');
+    expect(body.error).toBe('missing_api_key');
+  });
+
+  test('GET users with invalid API key returns 401', async ({ request }) => {
+    const response = await request.get(`${BASE_URL}/users/2`, {
+      headers: { 'x-api-key': 'totally_fake_invalid_key_12345' }
+    });
+
+    expect(response.status()).toBe(401);
+  });
+
+});
+function assertUserSchema(user: any) {
+  expect(typeof user.id).toBe('number');
+  expect(typeof user.email).toBe('string');
+  expect(typeof user.first_name).toBe('string');
+  expect(typeof user.last_name).toBe('string');
+  expect(typeof user.avatar).toBe('string');
+}
+
+test.describe('Schema validation', () => {
+
+  test('Single user matches expected schema', async ({ request }) => {
+    const response = await request.get(`${BASE_URL}/users/2`, {
+      headers: { 'x-api-key': API_KEY }
+    });
+
+    const body = await response.json();
+    assertUserSchema(body.data);
+  });
+
+  test('Every user in list matches expected schema', async ({ request }) => {
+    const response = await request.get(`${BASE_URL}/users?page=2`, {
+      headers: { 'x-api-key': API_KEY }
+    });
+
+    const body = await response.json();
+
+    for (const user of body.data) {
+      assertUserSchema(user);
+    }
+  });
+
+});
